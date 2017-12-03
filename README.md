@@ -1,6 +1,6 @@
 This project helps to memorize English words with referring images crawled
-from google pictures. Input is the word list, the PDF will be generated
-in the same folder.  
+from google pictures. Input is the word list placed in the root folder of
+this project, the PDF will be generated in the same folder.  
 <br>
 The input word list as:  
 <img src="./word_example.png" width="150"/>
