@@ -3,6 +3,10 @@ The purpose of this project is to help myself memory English words, because I fe
 
 This project was developed on python2.
 
+The pipeline is like:
+
+![pipeline](pipeline.png =500x)
+
 additional requirements:  
 ```
 pip2 install reportlab
