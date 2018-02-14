@@ -5,7 +5,7 @@ This project was developed on python2.
 
 The pipeline is like:
 
-![pipeline](pipeline.png =500x)
+![pipeline](pipeline.png)
 
 additional requirements:  
 ```
