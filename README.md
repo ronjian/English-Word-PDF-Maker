@@ -1,17 +1,18 @@
-This project helps to memorize English words with referring images crawled
-from google pictures. Input is the word list placed in the root folder of
-this project, the PDF will be generated in the same folder.  
-<br>
-The input word list as:  
-<img src="./word_example.png" width="150"/>
-<br>
-The output PDF as:  
-<img src="./pdf_example.png" width="600"/>
-<br>
-<br>
-Kick off as:
-```shell
-python crawlImage.py word_list
-python transEngToCh.py word_list
-python generatePDF.py word_list
+Given a sample word list (eg,```sample_words.txt```), the program will query each word and crawl top 2 images from Google and generate a nice PDF file (eg, ```sample_words.pdf```).
+The purpose of this project is to help myself memory English words, because I feel easier to memory words with images incentive.
+
+This project was developed on python2.
+
+additional requirements:  
+```
+pip2 install reportlab
+pip2 install s4
+pip2 install html5lib
+```
+
+kick off steps:  
+```
+python2 crawler.py sample_words.txt
+python2 translator.py sample_words.txt
+python2 writer.py sample_words.txt
 ```
